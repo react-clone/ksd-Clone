@@ -47,7 +47,10 @@ const App = () => {
         <Route path='portfolio/blog' element={<Blog />} />
 
       </Route>
-    )
+    ),
+    {
+      basename: '/ksd-Clone', // Set the base name for all routes
+    }
   )
 
   return (
